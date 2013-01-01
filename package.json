@@ -23,7 +23,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "supervisor -n exit -e js,coffee index"
+    "dev": "supervisor -n exit -i public -e js,coffee index"
   },
   "author": "David Guttman",
   "license": "BSD",
