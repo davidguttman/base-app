@@ -23,7 +23,8 @@
   },
   "scripts": {
     "start": "node index.js",
-    "dev": "supervisor -n exit -i public -e js,coffee index"
+    "dev": "supervisor -n exit -i public -e js,coffee index",
+    "test": "./node_modules/.bin/mocha"
   },
   "author": "David Guttman",
   "license": "BSD",
